@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+#pai{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#pai .filho{   
+    position: relative;
+    width: 70%;
+    height: 70%;
+}
+#pai .filho .buscartodos{
+    position: absolute;
+    overflow: auto;
+    background-color: rgb(197, 241, 255);
+    border-style: solid;
+    border-width: 1px;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+
+}
+#pai .filho .buscartodos input{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+}
+#pai .filho .buscartodos input[type="submit"]{
+    position: absolute;
+    top: 2px;
+    background-color: rgb(0, 255, 200);
+    border-width: 1px;
+    border-radius: 5px;
+    width: 50%;
+    left: 25%;
+}
+#pai .filho .buscartodos div{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    top: 20px;
+}
+#pai .filho .buscartodos div span{
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+#pai .filho .buscartodos div .item{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#pai .filho .buscar{
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    background-color: burlywood;
+    width: 50%;
+    height: 100%;
+}
+#pai .filho .buscar input{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+#pai .filho .buscar input[type="submit"]{
+    position: relative;
+    width: 60px;
+    left: 45%;
+    background-color: rgb(0, 255, 200);
+    border-width: 1px;
+    border-radius: 5px;
+}
+#pai .filho .buscar input[type="submit"]:hover{
+    background-color: rgb(0, 255, 157);;
+}
+#pai .filho .buscar span{
+    position: relative;
+    left: 40%;
+
+}
+#pai .filho .buscar div{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    border-top-style: solid;
+    border-width: 1px;
+    background-color: aqua;
+    top: 25%;
+}
+#pai .filho .buscar div span{
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
+#pai .filho .buscar div .item{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+#pai a{
+    position: absolute;
+    text-decoration:none; 
+    background-color: teal;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 45px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+#pai a:hover{
+    background-color: rgb(0, 100, 100);
+}
